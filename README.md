@@ -21,5 +21,17 @@ So `strong`, `weak` or `assign`, `retain` are first in sequence, then `nonatomic
 If property is `atomic`, that also must be explicitly defined. After that `readonly` if needed, but `readwrite` 
 is not needed to be explicitly defined. On last place `getter` of `setter` if needed.
 
+When naming properites of UIKit, the name of property starts with the name of the class which is used and after name 
+of class some description comes.
+
+**For example:**  
+```objc
+@property (strong, nonatomic) IBOutlet UIButton *buttonMonth;
+```
+**Not:**  
+```objc
+@property (strong, nonatomic) IBOutlet UIButton *monthButton;
+@property (strong, nonatomic) IBOutlet UIButton *month;
+```
 ###Variables
 ###Methods
