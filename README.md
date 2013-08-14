@@ -35,3 +35,19 @@ of class some description comes.
 ```
 ###Variables
 ###Methods
+
+When naming methods which are IBActions method name is composed of {class_name}{control_name}{event}. Provide sender 
+as parameter even if not required.
+
+**For example:**
+```objc
+- (IBAction)buttonFilterTouchUpInside:(id)sender;
+```
+**Not:**
+```objc
+- (IBAction)buttonFilterClick:(id)sender;
+- (IBAction)buttonClick:(id)sender;
+- (IBAction)clickOnButton:(id)sender;
+- (IBAction)filter:(id)sender;
+- (IBAction)buttonFilterClick;
+```
