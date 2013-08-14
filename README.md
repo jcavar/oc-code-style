@@ -51,8 +51,12 @@ as parameter even if not required.
 - (IBAction)filter:(id)sender;
 - (IBAction)buttonFilterClick;
 ```
-
-### Files (Classes, Protocols, ...)
+###Functions and Macros
+### Files
+####Classes
+####Protocols
+####Header files
+####Images
 ##Structure
 
 ###Project structure
