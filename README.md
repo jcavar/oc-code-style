@@ -63,3 +63,6 @@ as parameter even if not required.
 
 ###File structure
 
+##Specific classes
+
+###Networking class
