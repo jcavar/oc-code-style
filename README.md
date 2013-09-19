@@ -34,7 +34,7 @@ of class some description comes.
 @property (strong, nonatomic) IBOutlet UIButton *month;
 ```
 
-Also, this rules can be applied on classes from NSFoundation framework. For example
+Also, this rules can be applied on classes from NSFoundation framework.
 
 **For example:**  
 ```objc
