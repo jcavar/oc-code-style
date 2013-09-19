@@ -14,6 +14,8 @@ In [issues](https://github.com/jcavar/oc-code-style/issues) we are discussing ab
 ###Spacings
 ###Dot notation
 ###Ternary operator
+###Xib files
+####Tags
 ##Naming
 
 ###Properties
