@@ -33,7 +33,33 @@ of class some description comes.
 @property (strong, nonatomic) IBOutlet UIButton *monthButton;
 @property (strong, nonatomic) IBOutlet UIButton *month;
 ```
+
+Also, this rules can be applied on classes from NSFoundation framework. For example
+
+**For example:**  
+```objc
+@property (strong, nonatomic) NSArray *arrayOfMonths;
+```
+**Not:**  
+```objc
+@property (strong, nonatomic) NSArray *months;
+@property (strong, nonatomic) NSArray *array;
+```
+
+This can be applied only to where property is describing complex types(classes, structs, enums, ...), not on primitive
+data types for example:
+
+**Not:**  
+```objc
+@property (assign, nonatomic) BOOL boolValid;
+@property (assign, nonatomic) int intCount;
+```
+
 ###Variables
+
+####Class variables
+####Local variables
+
 ###Methods
 
 When naming methods which are IBActions method name is composed of {class_name}{control_name}{event}. Provide sender 
