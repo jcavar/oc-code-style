@@ -6,6 +6,14 @@ mentioned here are subjective, but we tried to find reasons why to use one code 
 document is not definitive, and can be changed if we find arguments for other code style.
 In [issues](https://github.com/jcavar/oc-code-style/issues) we are discussing about problems we encountered.
 
+##Code structure
+
+###If else
+###for loop
+###do while loop
+###Spacings
+###Dot notation
+###Ternary operator
 ##Naming
 
 ###Properties
