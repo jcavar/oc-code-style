@@ -146,11 +146,12 @@ as parameter even if not required.
 Each .m file must be divided into one or multiple sections for simpler walking throuhgt file and finding each part.
 For dividing code into sections we are using #pragma mark. For each classic section we have #pragma mark.
 
+```objc
 #pragma mark - Object lifecycle
 #pragma mark - View lifecycle
 #pragma mark - UITableViewDataSource methods
 #pragma mark - UITableViewDelegate methods
-
+```
 ##Specific classes
 
 ###Networking class
