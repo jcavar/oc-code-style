@@ -9,12 +9,49 @@ In [issues](https://github.com/jcavar/oc-code-style/issues) we are discussing ab
 ##Code structure
 
 ###If else
+
+```objc
+if (isTrue) {
+    // code to do
+} else if (isFalse) {
+    //code to do
+} else {
+    //code to do
+}
+```
+
 ###for loop
+
+```objc
+for (int i = 0; i < length; i++) {
+    //code to do
+}
+```
+
 ###do while loop
 ###Spacings
 ###Dot notation
+
+If possible always use dot notation. It is simpler and more readable. Use dot notation even if you are 
+accessing object sending message with brackets and after you need to access object property.
+
+**For example:** 
+
+```objc
+[UIApplication sharedApplication].delegate;
+```
+
+**Not:** 
+
+```objc
+[[UIApplication sharedApplication] delegate];
+```
+
 ###Ternary operator
+Don't use ternary operator because they are unreadable, better write if else statment.
 ###Xib files
+Create xib files always if you don't have reason for not creating. 
+Xib files are simple to edit and more readable than code you write.
 ####Tags
 ##Naming
 
