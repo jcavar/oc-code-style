@@ -34,6 +34,13 @@ for (int i = 0; i < length; i++) {
 ```
 
 ###do while loop
+
+```objc
+do {
+        // code to do
+    } while (isTrue);
+```
+
 ###Spacings
 ###Dot notation
 
@@ -43,7 +50,7 @@ accessing object sending message with brackets and after you need to access obje
 **For example:** 
 
 ```objc
-[UIApplication sharedApplication].delegate;
+UIApplicationDelegate *applicationDelegate = [UIApplication sharedApplication].delegate;
 ```
 
 **Not:** 
@@ -58,6 +65,8 @@ Don't use ternary operator because they are unreadable, better write if else sta
 Create xib files always if you don't have reason for not creating. 
 Xib files are simple to edit and more readable than code you write.
 ####Tags
+Don't use tags in xib files because when tags are used in code someone else can't know what that tag is used for.
+Other problem is that someone can give same tag to other view as you do for your view.
 ##Naming
 
 ###Properties
