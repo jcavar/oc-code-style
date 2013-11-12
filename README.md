@@ -11,7 +11,7 @@ In [issues](https://github.com/jcavar/oc-code-style/issues) we are discussing ab
 ###If else
 
 If you need to cover more than 2 cases in if else statment, write them in same intendation. 
-It is not correctly because they need to be nested, but that is not readable, and prefer this.
+That is not correct because they need to be nested, but that is not readable, and prefer this.
 
 **For example:**
 
