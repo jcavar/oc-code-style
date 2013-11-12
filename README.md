@@ -123,12 +123,11 @@ data types for example:
 
 ###Methods
 
-When naming methods which are IBActions method name is composed of {class_name}{control_name}{event}. Provide sender 
-as parameter even if not required.
+When naming methods which are IBActions method name is composed of {class_name}{control_name}{event}. Provide sender, with it's correct class, as parameter even if not required.
 
 **For example:**
 ```objc
-- (IBAction)buttonFilterTouchUpInside:(id)sender;
+- (IBAction)buttonFilterTouchUpInside:(UIButton *)sender;
 ```
 **Not:**
 ```objc
