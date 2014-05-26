@@ -37,7 +37,7 @@ for (int i = 0; i < length; i++) {
 
 ```objc
 do {
-        // code to do
+    // code to do
 } while (isTrue);
 ```
 
